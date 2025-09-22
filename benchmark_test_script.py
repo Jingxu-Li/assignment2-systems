@@ -70,7 +70,6 @@ def benchmarking():
         result = benchmark(f"matmul(dim={dim})", run_operation2(
             dim=dim, operation=lambda a, b: a @ b))
         matmul_results.append((dim, result))  # @inspect matmul_results
-
     dim = 256  # @inspect dim
     num_layers = 4  # @inspect num_layers
     batch_size = 256  # @inspect batch_size

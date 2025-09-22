@@ -1,7 +1,7 @@
 [project]
 name = "cs336_basics"
 version = "1.0.3"
-description = "CS336 Assignment 1"
+description = "CS336 Assignment 2"
 readme = "README.md"
 requires-python = ">=3.11"
 dependencies = [
